@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+
+#mainbody {
+	background-repeat: repeat;
+	clear: none;
+	height: auto;
+	width: 1024px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	background-color: #FFF;
+}
+
+#menucontanier {
+	height: 160px;
+	width: 750px;
+	background-color: #FFF;
+	background-image: url(../image/logo.PNG);
+	background-repeat: no-repeat;
+}
+#mastermenu {
+	background-color: #C90;
+	height: 25px;
+	color: #FFF;
+}
+
+	#menu {
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+#menu li a {
+	display: block;
+	width: 145px;
+	text-align: center;
+	color: #FFF;
+	 
+}
+#menu li {
+	display: inline;
+	float: left;
+    width: 421px;
+}
+
+#readme
+{
+    font-weight: normal;
+    font-size: 12px;
+}
+
+#maimpress {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	/* [disabled]color: #333; */
+	/* [disabled]background-color: #FFF; */
+	padding: 10px;
+	background-image: url(../image/ddddd.jpg);
+}
+#maimpress p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+#buycar {
+    background-color: #F00;
+    height: 200px;
+    width: 200px;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#buycardoc {
+	height: 500px;
+	width: 250px;
+	/* [disabled]position: absolute; */
+	float: left;
+}
+#buycardoc p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: lighter;
+	text-align: justify;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+}
+
+
+   
+#rentcardoc {
+	height: 500px;
+	width: 250px;
+	float:left
+	
+}
+#rentcar {
+	height: 200px;
+	width: 200px;
+	margin-top: 10px;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	margin-left: 25px;
+	background-color: #F00;
+}
+
+#rentcardoc p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: lighter;
+	text-align: justify;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+}
+
+
+
+#sellcardoc {
+	height: 500px;
+	width: 250px;
+	float:left
+	
+}
+#sellcar {
+	height: 200px;
+	width: 200px;
+	margin-top: 10px;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	margin-left: 25px;
+	background-color: #F00;
+}
+
+#sellcardoc p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: lighter;
+	padding-top: 2px;
+	padding-right: 10px;
+	padding-bottom: 2px;
+	padding-left: 10px;
+	text-align: justify;
+}
+#advartisment {
+	height: 500px;
+	width: 250px;
+	float: left;
+	margin-right: 12px;
+	margin-left: 12px;
+}
+
+.clear-both {
+   clear: both;}
+#advartisment p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.backdorimg {
+	height: 200px;
+	width: 200px;
+}
+
+
+
+.clear-both {
+   clear: both;}
+#readme {
+	background-color: #999;
+	height: 110px;
+	width: 1024px;
+	float: left;
+}
+#readme p {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: lighter;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	text-align: justify;
+}
+footer {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bolder;
+	text-align: center;
+	height: 180px;
+	width: 1024px;
+	float: left;
+	background-color: #CCC;
+}
+#img1, #img2, #img3, #img4
+{
+	height: 200px;
+	width: 400px;
+	margin-top: 10px;
+	margin-right: 25px;
+	margin-bottom: 10px;
+	margin-left: 25px;
+}
+.clear-both {
+   clear: both;}
+#weather {
+padding-left: 10px;
+}
+
+#weather_header {
+padding-left: 15px;
+}

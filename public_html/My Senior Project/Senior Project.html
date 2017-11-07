@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Welcome to My Page </title>
+<script src="js/jquery-2.1.4.js"></script>
+<link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+<link href="css/foundation.css" type="text/css" rel="stylesheet">
+<link href="css/foundation.min.css" type="text/css" rel="stylesheet">
+<link href="css/normalize.css" type="text/css" rel="stylesheet">
+<script type = "application/javascript" src = "JS/weather.js"></script>
+
+</head>
+
+
+<body>
+
+<div class="row centered-text"><div id="mainbody">
+<div id="menucontanier"></div>
+<header>
+<nav>
+<div id="mastermenu">
+<ul class="on" id = "menu">
+<li><a href="#" id = "home">Home</a></li>
+<li><a href="#" id = "news">News</a></li>
+<li><a href="#" id = "contact">Contact</a></li>
+<li><a href="#" id = "weather">Weather</a></li>
+    <li>&nbsp;Specials </li>
+</ul>
+</div>	
+</nav>
+</header>
+<div id="maimpress"><p>It's a never ending battle of making your cars better <br /> and also trying to be better yourself.
+</p></div>
+</div>
+
+
+<div class="row" id="row">
+<div class="xxlarge-6 xlarge-6 large-6 medium-6 columns">	<div id="buycardoc">
+<div id="buycar"><img class="backdorimg" src="image/2008_Dodge_Charger.jpg" /></div>
+<p>Charge up the 2016 Chevrolet Volt, drive it for 50-plus miles until the battery runs low, and then it switches over to gasoline power and runs like a hybrid. The 2016 Chevrolet Volt is a great idea, and the new version brings several much-needed improvements.</p></div></div>
+<div class="xxlarge-6 xlarge-6 large-6 medium-6 columns">
+<div id="rentcardoc">
+<div id="rentcar"><img class="backdorimg" src="image/2008_Dodge_Charger.jpg" /></div>
+<p>Charge up the 2016 Chevrolet Volt, drive it for 50-plus miles until the battery runs low, and then it switches over to gasoline power and runs like a hybrid. The 2016 Chevrolet Volt is a great idea, and the new version brings several much-needed improvements.</p></div></div>
+<div class="xxlarge-6 xlarge-6 large-6 medium-6 columns">
+<div id="sellcardoc">
+<div id="sellcar"><img class="backdorimg" src="image/2008_Dodge_Charger.jpg" /></div>
+<p>Charge up the 2016 Chevrolet Volt, drive it for 50-plus miles until the battery runs low, and then it switches over to gasoline power and runs like a hybrid. The 2016 Chevrolet Volt is a great idea, and the new version brings several much-needed improvements.</p></div></div>
+<div class="xxlarge-6 xlarge-6 large-6 medium-6 columns">
+<div id="advartisment"><p>Please join with our partners</p>
+<div id="partner">
+<img src="image/1 (1).png" />
+<img src="image/1 (2).png" />
+<img src="image/1 (3).png" />
+<img src="image/1 (4).png" />&nbsp;
+<img src="image/1 (5).png" /></div>
+</div></div>
+</div>
+
+
+
+<div id = "newscontent" hidden = "true">
+<h2>News</h2>
+<table id = "newstable">
+<tr>
+<td>
+<img src="image/img1.jpg" id = "img1">
+</td>
+<td>
+<img src="image/img2.jpg" id = "img2">
+</td>
+</tr>
+<tr>
+<td>
+<img src="image/img3.jpg" id = "img3">
+</td>
+<td>
+<img src="image/img4.jpg" id = "img4">
+</td>
+</tr>
+</table>
+</div>
+
+<div id = "contactContent" hidden = "true">
+<h2>Contact</h2>
+<div id = "contacttable">
+<img src="image/img5.jpg" id = "img5"/>
+<p>Paul William Walker was an American actor. Walker began his career guest-starring in several television shows such as The Young and the Restless and Touched by an Angel. Walker gained prominence with breakout roles in coming-of-age and teen films such as She's All That and Varsity Blues. In 2001, Walker gained international fame for his portrayal of Brian O'Conner in the street racing action film The Fast and the Furious, and would reprise the role in five of the next six installments. He also starred in films such as Eight Below, Timeline, Into the Blue, Joy Ride and Running Scared. 
+Outside of acting, Walker was the face of The Coty Prestige fragrance brand Davidoff Cool Water for Men, and starred in the National Geographic Channel series, Expedition Great White. He also founded the charity "Reach Out Worldwide" (ROWW), an organization providing relief efforts for areas affected by natural disasters. Walker died in a single-vehicle collision on November 30, 2013, alongside friend Roger Rodas. Three films that he was involved in at the time were released posthumously: Hours (2013), Brick Mansions (2014) and Furious 7 (2015). The song "See You Again" by Wiz Khalifa, which appeared on the Furious 7 soundtrack, is a tribute to Walker.</p>
+</div>
+</div>
+
+<div id = "weatherContent" hidden = "true">
+
+    <div class="row">
+	    <h2 id = "weather_header">Weather in California</h2>
+	</div>
+          <div class="row">
+            <div class="large-6 columns" id="current"></div>
+            <div class="large-6 columns" id="map"></div>
+          </div>
+
+</div>
+
+
+<footer>
+<div id = "readme"> <h6>Read Me </h6> First of all, two pictures I have used in my page, are my favorite cars . Secondly, for the styling, I used Grey color for my header. For the body, I used "Times New Roman" font,wwhite font color and the background color looks white but it ain't; hex-value of the color is #CCFFFF. For the H3 headings, I used "Trebuchet MS" font. For "Readme" section, I used Colar color. Secondary I wanna say I did looked over My ClassMate "Deep's" Web Page to get an Idea about my Website . Thanks !! </br>WebMaster : Chamil Jayaratna</div></br>
+<script src="JS/javascript.js" type = "text/javascript"></script>
+
+<script src = "http://api.wunderground.com/api/b89f349e49488b8d/conditions/q/CA/San_Francisco.json?callback=map"></script>
+<script src = "http://api.wunderground.com/api/b89f349e49488b8d/conditions/q/CA/San_Francisco.json?callback=weather"></script>
+</footer>
+
+
+
+</body>
+
+</html>
